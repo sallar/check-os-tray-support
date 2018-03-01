@@ -14,9 +14,14 @@ function isLinux() {
 
 module.exports = function checkTraySupport() {
   if (isOSX() || isWindows()) {
-    return Promise.resolve(true);
+    return true;
   }
-  return execa('dpkg', ['--get-selections', 'libappindicator1']).then(res => {
-    return res.stdout.endsWith('\tinstall');
-  });
+  try {
+    const { stdout } = execa.shellSync(
+      'dpkg --get-selections libappindicator1'
+    );
+    return stdout.endsWith('\tinstall');
+  } catch (err) {
+    return false;
+  }
 };
