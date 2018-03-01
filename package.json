@@ -1,0 +1,23 @@
+{
+  "name": "check-os-tray-support",
+  "version": "1.0.0",
+  "description": "Check if the current OS supports showing Tray (useful for Electron apps)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sallar/check-os-tray-support.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sallar/check-os-tray-support/issues"
+  },
+  "homepage": "https://github.com/sallar/check-os-tray-support#readme",
+  "dependencies": {
+    "execa": "^0.9.0"
+  }
+}
