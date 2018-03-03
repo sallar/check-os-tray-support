@@ -2,7 +2,7 @@
 
 > Check if the current OS supports showing Tray (useful for Electron apps)
 
-[![npm](https://img.shields.io/npm/v/check-os-tray-support.svg?label=npm%20version)](https://www.npmjs.com/package/check-os-tray-support)
+[![npm](https://img.shields.io/npm/v/check-os-tray-support.svg?label=npm%20version)](https://www.npmjs.com/package/check-os-tray-support) [![Build Status](https://travis-ci.org/sallar/check-os-tray-support.svg?branch=master)](https://travis-ci.org/sallar/check-os-tray-support)
 
 ## About
 

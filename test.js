@@ -1,7 +1,6 @@
-const check = require('./');
+import test from 'ava';
+import check from './';
 
-// check().then(res => {
-//   console.log('done', res);
-// });
-
-console.log(check());
+test('libappindicator1 is available', t => {
+  t.is(check(), true);
+});
