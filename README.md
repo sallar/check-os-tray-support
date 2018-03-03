@@ -5,9 +5,11 @@
 [![npm](https://img.shields.io/npm/v/check-os-tray-support.svg?label=npm%20version)](https://www.npmjs.com/package/check-os-tray-support)
 
 ## About
+
 Not all OSes support tray icons - this library helps handle unsupported operating systems _gracefully_.
 
 ## Installation
+
 Install the library by running `npm install check-os-tray-support --save`.
 
 ## Usage
@@ -20,3 +22,7 @@ if (trayIconSupported()) {
   // build and attach a tray icon
 }
 ```
+
+## License 
+
+This project is licensed under the [MIT License](LICENSE)
