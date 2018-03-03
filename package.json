@@ -1,6 +1,6 @@
 {
   "name": "check-os-tray-support",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Check if the current OS supports showing Tray (useful for Electron apps)",
   "main": "index.js",
   "scripts": {
