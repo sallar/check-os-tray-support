@@ -17,9 +17,7 @@
     "url": "https://github.com/sallar/check-os-tray-support/issues"
   },
   "homepage": "https://github.com/sallar/check-os-tray-support#readme",
-  "dependencies": {
-    "execa": "^0.9.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.25.0"
   }
